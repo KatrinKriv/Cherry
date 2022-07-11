@@ -43,6 +43,7 @@ body, html{
     padding: 0 10px;
     color: #5b636e;
     background-color: #24272d;
+    margin-bottom: 20px;
 }
 .header_search button{
     background-color: #9c4757;
@@ -221,12 +222,14 @@ button{
     background-color: #ab222c;
     color: #ffffff;
     border: 5px solid #ffffff;
-    margin: 0 auto 30px;
-    display: block;
     padding: 10px 10px;
     font-size: 1rem;
 }
 
+.button{
+    margin: 0 23px 30px;
+
+}
 
 select{
     color: #757575;
@@ -504,3 +507,34 @@ footer{
 .footer_third_item ul{
     margin-left: 5px;
 }
+
+.header a:hover{
+    text-shadow: 1px 3px #95161f;
+}
+
+.nav_list_background ul>li:nth-child(1n):hover{
+    transform: translateY(10px);
+    transition: all ease-in-out 0.3s;
+}
+
+.nav_list_background ul>li:nth-child(2n):hover{
+    transform: translateY(-10px);
+    transition: all ease-in-out 0.3s;
+}
+
+
+
+@-webkit-keyframes hvr-buzz{50%{-webkit-transform:translateX(3px) rotate(2deg);
+    transform:translateX(3px) rotate(2deg)}100%{-webkit-transform:translateX(-3px) rotate(-2deg);
+    transform:translateX(-3px) rotate(-2deg)}}
+@keyframes hvr-buzz{50%{-webkit-transform:translateX(3px) rotate(2deg);
+    transform:translateX(3px) rotate(2deg)}100%{-webkit-transform:translateX(-3px) rotate(-2deg);
+    transform:translateX(-3px) rotate(-2deg)}}.hvr-buzz{
+    vertical-align:middle;-webkit-transform:perspective(1px) translateZ(0);
+    transform:perspective(1px) translateZ(0);
+    box-shadow:0 0 1px rgba(0,0,0,0)}.hvr-buzz:active,.hvr-buzz:focus,.hvr-buzz:hover{-webkit-animation-name:hvr-buzz;
+    animation-name:hvr-buzz;-webkit-animation-duration:.15s;
+    animation-duration:.15s;-webkit-animation-timing-function:linear;
+    animation-timing-function:linear;-webkit-animation-iteration-count:infinite;
+    animation-iteration-count:infinite}
+
