@@ -36,7 +36,7 @@ body, html{
 }
 
 .header_search input{
-    border: 1px solid #aa212b;
+    border: 1px solid #9c4757;
     border-radius: 5px;
     float: left;
     height: 34px;
@@ -45,21 +45,21 @@ body, html{
     background-color: #24272d;
 }
 .header_search button{
-    background: #aa212b ;
-    border: 1px solid #aa212b;
+    background-color: #9c4757;
+    border: 1px solid #9c4757;
     border-radius: 5px;
     float: left;
     margin-left: 10px;
-    height: 34px;
+    height: 36px;
     width: 36px;
-    color: #ffffff;
+    padding: 4px 16px 0 9px;
 }
+
 i{
     color: white;
     height: 10px;
-    width: 15px;
-    padding-bottom: 10px;
-    display: block;
+    width: 10px;
+    padding:0 10px;
 }
 
 .header .container{
@@ -195,6 +195,7 @@ aside h3{
     font-size: 1.125rem;
     color: #282d33;
     font-weight: bold;
+    padding-left: 1px;
 }
 aside form{
     padding: 0 14px;
@@ -359,14 +360,16 @@ article p a{
 }
 
 .main_text_examples ul>ul{
-    margin-left: 20px;
+    margin-left: 27px;
 }
 
 .main_text_examples .list_unstyled {
     list-style: none;
-    margin-left: 0;
 }
 
+.main_text_examples .list_unstyled .list_unstyled_internal_list{
+    margin-left: 10px;
+}
 .main_text_examples .list_ordered{
     list-style: decimal;
     list-style-position: inside;
@@ -414,7 +417,7 @@ thead td{
 }
 
 thead th{
-    font: 900 0.75rem "Arial";
+    font: 400 0.75rem "Arial";
     padding: 10px 18px;
     border: 1px solid white;
     background-color: #9c4757;
@@ -468,7 +471,7 @@ footer{
     display: block;
 }
 .footer_first_item ul{
-    list-style-image: url("Layer 20 copy 2.png") ;
+    list-style-image: url("Layer_20_copy_2.png");
     list-style-position: inside;
     padding-left: 5px;
 }
