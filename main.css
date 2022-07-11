@@ -219,7 +219,11 @@ aside input{
 
 
 button{
-    background-color: #ab222c;
+    background: rgb(134,32,40);
+    background: -moz-linear-gradient(238deg, rgba(134,32,40,1) 0%, rgba(137,33,41,1) 100%);
+    background: -webkit-linear-gradient(238deg, rgba(134,32,40,1) 0%, rgba(137,33,41,1) 100%);
+    background: linear-gradient(238deg, rgba(134,32,40,1) 0%, rgba(137,33,41,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#862028",endColorstr="#892129",GradientType=1);;
     color: #ffffff;
     border: 5px solid #ffffff;
     padding: 10px 10px;
