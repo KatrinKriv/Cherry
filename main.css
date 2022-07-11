@@ -152,7 +152,7 @@ i{
 .breadcrumbs__list{
     background-color: #f3f3f3;
     list-style: none;
-    padding: 8px 25px 7px;
+    padding: 5px 25px 8px;
 }
 .breadcrumbs__list_item{
     color: #6b6f74;
@@ -538,3 +538,6 @@ footer{
     animation-timing-function:linear;-webkit-animation-iteration-count:infinite;
     animation-iteration-count:infinite}
 
+.main_text_examples>ul{
+    overflow: hidden;
+}
